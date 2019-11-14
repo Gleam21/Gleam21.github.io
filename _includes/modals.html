@@ -20,8 +20,8 @@
                             {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                    <li>사용기술:
+                                        <strong>Unity,C# </a>
                                         </strong>
                                     </li>
                                 {% endif %}
@@ -38,8 +38,14 @@
                                     </li>
                                 {% endif %}
                             </ul>
+                            {% if post.github %}
+                            <button type="button" class="btn btn-default" onclick="location.href='{{post.github}}'"><i class="fa fa-bookmark">Github 저장소</i></button>
+
+                            {% endif %}
+
+                            <!--
                             <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.href = 'https://github.com/gleam21'" >
-                                <i class="fa fa-times"></i> Github 저장소</button>
+                                <i class="fa fa-times"></i> Github 저장소</button> -->
                         </div>
                     </div>
                 </div>
