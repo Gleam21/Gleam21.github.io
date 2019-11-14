@@ -4,7 +4,7 @@ modal-id: 1
 date: 2019-11-14
 img: p01.png
 alt: image-alt
-project-date: April 2014
+project-date: 2019-11-14
 client: Start Bootstrap
 category: Web Development
 description:  <a href="https://github.com/Gleam21/SuperContact"> Git Hub </a>. 
