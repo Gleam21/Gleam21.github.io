@@ -1,11 +1,12 @@
 ---
 layout: default
-modal-id: 6
+modal-id: 1
 date: 2019-11-14
 img: p02.png
 alt: image-alt
-project-date: 2019-11-14
-client: Start Bootstrap
-category: Web Development
+project-date: November 2019
+github: https://github.com/Gleam21/SuperContact
+skills : C#,Unity
+category: App
 description:  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>.  
 ---
